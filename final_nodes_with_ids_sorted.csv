@@ -1,15 +1,15 @@
 ID,Time,Item Name,Location,Coordinates,Parsed Time,time_diff
-5395,09:00,Spruce Log,Coerthas Central Highlands,"(x27,y12)",1900-01-01 09:00:00,-11
-7592,09:00,Apricot,Middle La Noscea,"(x19,y16)",1900-01-01 09:00:00,-11
-4816,09:00,Prickly Pineapple,Eastern La Noscea,"(x30.4,y28.4)",1900-01-01 09:00:00,-11
-7734,09:00,Prickly Pineapple Seeds,Eastern La Noscea,"(x30.4,y28.4)",1900-01-01 09:00:00,-11
-6199,09:00,Coblyn Larva,Eastern Thanalan,"(x28,y22)",1900-01-01 09:00:00,-11
-5118,09:00,Gold Ore,Eastern Thanalan,"(x28,y22)",1900-01-01 09:00:00,-11
-33002,10:00,Rarefied Pixie Apple,Il Mheg,"(x4,y23)",1900-01-01 10:00:00,49
-33004,10:00,Rarefied Miracle Apple Log,Il Mheg,"(x4,y23)",1900-01-01 10:00:00,49
-13768,10:00,Coerthan Tea Seeds,Coerthas Western Highlands,"(x31,y20)",1900-01-01 10:00:00,49
-12877,10:00,Pearl Sprouts,Coerthas Western Highlands,"(x31,y20)",1900-01-01 10:00:00,49
-12884,10:00,Chives,Coerthas Western Highlands,"(x31,y20)",1900-01-01 10:00:00,49
-13767,10:00,Pearl Sprout Seeds,Coerthas Western Highlands,"(x31,y20)",1900-01-01 10:00:00,49
-12882,10:00,Coerthan Tea Leaves,Coerthas Western Highlands,"(x31,y20)",1900-01-01 10:00:00,49
-32994,10:00,Rarefied Dark Chestnut Branch,The Dravanian Forelands,"(x29,y30)",1900-01-01 10:00:00,49
+33006,16:00,Rarefied Kelp,The Tempest,"(x37,y12)",1900-01-01 16:00:00,35
+33008,16:00,Rarefied Coral,The Tempest,"(x37,y12)",1900-01-01 16:00:00,35
+19857,16:00,Jhammel Ginger,The Lochs,"(x8,y8)",1900-01-01 16:00:00,35
+32998,16:00,Rarefied Shiitake Mushroom,The Ruby Sea,"(x33,y9)",1900-01-01 16:00:00,35
+12898,16:00,Morel,The Dravanian Hinterlands,"(x19,y36)",1900-01-01 16:00:00,35
+12897,16:00,Cloud Banana,The Dravanian Hinterlands,"(x19,y36)",1900-01-01 16:00:00,35
+32980,16:00,Rarefied Titancopper Ore,Lakeland,"(x36,y24)",1900-01-01 16:00:00,35
+32982,16:00,Rarefied Raw Petalite,Lakeland,"(x36,y24)",1900-01-01 16:00:00,35
+27728,16:00,Raw Lazurite,The Rak'tika Greatwood,"(x19,y21)",1900-01-01 16:00:00,35
+32970,16:00,Rarefied Pyrite,The Dravanian Forelands,"(x31,y32)",1900-01-01 16:00:00,35
+32971,16:00,Rarefied Chalcocite,The Dravanian Forelands,"(x31,y32)",1900-01-01 16:00:00,35
+19971,16:00,Raw Azurite,Azim Steppe,"(x5,y29)",1900-01-01 16:00:00,35
+32972,16:00,Rarefied Limonite,The Dravanian Forelands,"(x31,y32)",1900-01-01 16:00:00,35
+10096,17:00,Rosemary,East Shroud,"(x22,y30)",1900-01-01 17:00:00,95

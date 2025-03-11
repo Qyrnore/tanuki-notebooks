@@ -14,4 +14,6 @@ This takes the unspoiled (timed) gathering nodes in Eorzea and prints them into 
 
 https://ffxiv.consolegameswiki.com/mediawiki/index.php?title=Unspoiled_Nodes&action=edit
 
+1. First cell cleans the raw output of the webpage above, which is turned into "cleaned_nodes.csv"
 
+2. Second cell takes all the "cleaned_nodes" and gets their nicely formatted IDs with item data using "item_ids.json"
