@@ -1,0 +1,9 @@
+ID,Time,Item Name,Location,Coordinates,Parsed Time,time_diff,minListing_world,minListing_dc,recentPurchase_world,recentPurchase_dc,averageSalePrice_dc,dailySaleVelocity_dc
+19857,04:00,Jhammel Ginger,The Lochs,"(x8,y8)",1900-01-01 04:00:00,-32,65,2,75,29,29,32.44955674137825
+12898,04:00,Morel,The Dravanian Hinterlands,"(x19,y36)",1900-01-01 04:00:00,-32,15,8,29,69,68.12244897959184,16.06087428273614
+5394,04:00,Ebony Log,Middle La Noscea,"(x23.2,y26.3)",1900-01-01 04:00:00,-32,10,1,10,120,120,9.17763488360855
+12897,04:00,Cloud Banana,The Dravanian Hinterlands,"(x19,y36)",1900-01-01 04:00:00,-32,250,50,300,500,496.6,8.194308275343952
+5147,04:00,Raw Diamond,Central Thanalan,"(x24,y16)",1900-01-01 04:00:00,-32,13,1,45,52,52,2.6221761892056255
+5148,04:00,Raw Emerald,Central Thanalan,"(x24,y16)",1900-01-01 04:00:00,-32,1,1,15,199,,
+19971,04:00,Raw Azurite,Azim Steppe,"(x5,y29)",1900-01-01 04:00:00,-32,250,250,375,375,175.33212996389892,90.79262483607774
+27728,04:00,Raw Lazurite,The Rak'tika Greatwood,"(x19,y21)",1900-01-01 04:00:00,-32,4,4,45,5,,

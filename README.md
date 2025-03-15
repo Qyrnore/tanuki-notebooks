@@ -16,4 +16,8 @@ https://ffxiv.consolegameswiki.com/mediawiki/index.php?title=Unspoiled_Nodes&act
 
 1. First cell cleans the raw output of the webpage above, which is turned into "cleaned_nodes.csv"
 
-2. Second cell takes all the "cleaned_nodes" and gets their nicely formatted IDs with item data using "item_ids.json"
+2. Second cell takes all the "cleaned_nodes" and gets their nicely formatted IDs with item data using "item_ids.json", making "final_nodes_with_ids.csv"
+
+3. Third cell calculates the time and sorts the "final_nodes_with_ids" by their active/approaching spawn time in eorzea.
+
+4. 

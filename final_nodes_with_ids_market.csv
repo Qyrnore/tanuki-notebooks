@@ -1,7 +1,0 @@
-ID,Time,Item Name,Location,Coordinates,Parsed Time,time_diff,minListing_world,minListing_dc,recentPurchase_world,recentPurchase_dc,averageSalePrice_dc,dailySaleVelocity_dc
-19857,16:00,Jhammel Ginger,The Lochs,"(x8,y8)",1900-01-01 16:00:00,35,499,2,75,75,86.52857142857142,38.14565286642038
-12898,16:00,Morel,The Dravanian Hinterlands,"(x19,y36)",1900-01-01 16:00:00,35,30,10,43,33,117.53333333333333,4.087031272123086
-12897,16:00,Cloud Banana,The Dravanian Hinterlands,"(x19,y36)",1900-01-01 16:00:00,35,300,30,900,487,487,2.7246855192403228
-27728,16:00,Raw Lazurite,The Rak'tika Greatwood,"(x19,y21)",1900-01-01 16:00:00,35,5,4,45,45,,
-19971,16:00,Raw Azurite,Azim Steppe,"(x5,y29)",1900-01-01 16:00:00,35,194,194,300,248,313.0603015075377,54.221166035272844
-10096,17:00,Rosemary,East Shroud,"(x22,y30)",1900-01-01 17:00:00,95,600,300,450,500,1032.9710144927535,37.60057880489129
