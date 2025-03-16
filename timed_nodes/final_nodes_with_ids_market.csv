@@ -1,9 +1,10 @@
 ID,Time,Item Name,Location,Coordinates,Parsed Time,time_diff,minListing_world,minListing_dc,recentPurchase_world,recentPurchase_dc,averageSalePrice_dc,dailySaleVelocity_dc
-19857,04:00,Jhammel Ginger,The Lochs,"(x8,y8)",1900-01-01 04:00:00,-32,65,2,75,29,29,32.44955674137825
-12898,04:00,Morel,The Dravanian Hinterlands,"(x19,y36)",1900-01-01 04:00:00,-32,15,8,29,69,68.12244897959184,16.06087428273614
-5394,04:00,Ebony Log,Middle La Noscea,"(x23.2,y26.3)",1900-01-01 04:00:00,-32,10,1,10,120,120,9.17763488360855
-12897,04:00,Cloud Banana,The Dravanian Hinterlands,"(x19,y36)",1900-01-01 04:00:00,-32,250,50,300,500,496.6,8.194308275343952
-5147,04:00,Raw Diamond,Central Thanalan,"(x24,y16)",1900-01-01 04:00:00,-32,13,1,45,52,52,2.6221761892056255
-5148,04:00,Raw Emerald,Central Thanalan,"(x24,y16)",1900-01-01 04:00:00,-32,1,1,15,199,,
-19971,04:00,Raw Azurite,Azim Steppe,"(x5,y29)",1900-01-01 04:00:00,-32,250,250,375,375,175.33212996389892,90.79262483607774
-27728,04:00,Raw Lazurite,The Rak'tika Greatwood,"(x19,y21)",1900-01-01 04:00:00,-32,4,4,45,5,,
+5350,01:00,Silkworm Cocoon,East Shroud,"(x22,y26)",1900-01-01 01:00:00,-31,380,40,444,444,299.1017647058824,433.698980123072
+5121,01:00,Darksteel Ore,Coerthas Central Highlands,"(x27,y19)",1900-01-01 01:00:00,-31,696,696,697,450,710.6372757231783,10450.863374685887
+9519,01:00,Pumice,Eastern La Noscea,"(x17,y26)",1900-01-01 01:00:00,-31,150,127,152,368,297.7,10.204669493057105
+13765,02:00,Old World Fig Seeds,The Dravanian Forelands,"(x26,y12)",1900-01-01 02:00:00,29,1300,1299,1400,1400,1513.107629427793,187.2555720967625
+12896,02:00,Old World Fig,The Dravanian Forelands,"(x26,y12)",1900-01-01 02:00:00,29,3,1,8,25,25.942857142857143,26.78722475906623
+19852,02:00,Othardian Plum,The Azim Steppe,"(x23,y16)",1900-01-01 02:00:00,29,42,2,100,100,,
+7611,02:00,Fragrant Log,South Shroud,"(x18,y23)",1900-01-01 02:00:00,29,,,,,,
+7591,02:00,Shroud Tea Leaves,Central Shroud,"(x16,y20)",1900-01-01 02:00:00,29,118,1,100,1000,166.9496855345912,40.56343689279496
+27726,02:00,Raw Hematite,Kholusia,"(x33,y23)",1900-01-01 02:00:00,29,84,20,200,80,,

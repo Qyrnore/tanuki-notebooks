@@ -1,15 +1,15 @@
 ID,Time,Item Name,Location,Coordinates,Parsed Time,time_diff
-33006,04:00,Rarefied Kelp,The Tempest,"(x37,y12)",1900-01-01 04:00:00,-32
-33008,04:00,Rarefied Coral,The Tempest,"(x37,y12)",1900-01-01 04:00:00,-32
-19857,04:00,Jhammel Ginger,The Lochs,"(x8,y8)",1900-01-01 04:00:00,-32
-32998,04:00,Rarefied Shiitake Mushroom,The Ruby Sea,"(x33,y9)",1900-01-01 04:00:00,-32
-12898,04:00,Morel,The Dravanian Hinterlands,"(x19,y36)",1900-01-01 04:00:00,-32
-5394,04:00,Ebony Log,Middle La Noscea,"(x23.2,y26.3)",1900-01-01 04:00:00,-32
-12897,04:00,Cloud Banana,The Dravanian Hinterlands,"(x19,y36)",1900-01-01 04:00:00,-32
-5147,04:00,Raw Diamond,Central Thanalan,"(x24,y16)",1900-01-01 04:00:00,-32
-32970,04:00,Rarefied Pyrite,The Dravanian Forelands,"(x31,y32)",1900-01-01 04:00:00,-32
-32971,04:00,Rarefied Chalcocite,The Dravanian Forelands,"(x31,y32)",1900-01-01 04:00:00,-32
-5148,04:00,Raw Emerald,Central Thanalan,"(x24,y16)",1900-01-01 04:00:00,-32
-32972,04:00,Rarefied Limonite,The Dravanian Forelands,"(x31,y32)",1900-01-01 04:00:00,-32
-19971,04:00,Raw Azurite,Azim Steppe,"(x5,y29)",1900-01-01 04:00:00,-32
-27728,04:00,Raw Lazurite,The Rak'tika Greatwood,"(x19,y21)",1900-01-01 04:00:00,-32
+5350,01:00,Silkworm Cocoon,East Shroud,"(x22,y26)",1900-01-01 01:00:00,-31
+5121,01:00,Darksteel Ore,Coerthas Central Highlands,"(x27,y19)",1900-01-01 01:00:00,-31
+9519,01:00,Pumice,Eastern La Noscea,"(x17,y26)",1900-01-01 01:00:00,-31
+33005,02:00,Rarefied Sandteak Log,Amh Araeng,"(x19,y20)",1900-01-01 02:00:00,29
+13765,02:00,Old World Fig Seeds,The Dravanian Forelands,"(x26,y12)",1900-01-01 02:00:00,29
+12896,02:00,Old World Fig,The Dravanian Forelands,"(x26,y12)",1900-01-01 02:00:00,29
+19852,02:00,Othardian Plum,The Azim Steppe,"(x23,y16)",1900-01-01 02:00:00,29
+33007,02:00,Rarefied Amber Cloves,Amh Araeng,"(x19,y20)",1900-01-01 02:00:00,29
+7611,02:00,Fragrant Log,South Shroud,"(x18,y23)",1900-01-01 02:00:00,29
+7591,02:00,Shroud Tea Leaves,Central Shroud,"(x16,y20)",1900-01-01 02:00:00,29
+32973,02:00,Rarefied Abalathian Spring Water,The Sea of Clouds,"(x21,y12)",1900-01-01 02:00:00,29
+32974,02:00,Rarefied Aurum Regis Sand,The Sea of Clouds,"(x21,y12)",1900-01-01 02:00:00,29
+27726,02:00,Raw Hematite,Kholusia,"(x33,y23)",1900-01-01 02:00:00,29
+32986,02:00,Rarefied Tungsten Ore,The Tempest,"(x33,y21)",1900-01-01 02:00:00,29
