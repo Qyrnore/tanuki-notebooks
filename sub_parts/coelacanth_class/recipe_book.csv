@@ -3,6 +3,7 @@ Spruce Lumber,Spruce Log,3,Wind Crystal,3
 Iron Nails,Iron Ingot,1,Fire Shard,1
 Cobalt Ingot,Cobalt Ore,2,Iron Ore,1,Fire Shard,5
 Cedar Lumber,Cedar Log,5,Wind Crystal,3
+Iron Ingot,Iron Ore,3,Fire Shard,1
 Iron Rivets,Iron Ingot,1,Fire Shard,1
 Mythril Plate,Mythril Ingot,2,Ice Shard,4
 Electrum Ingot,Electrum Ore,4,Wind Shard,5
@@ -37,3 +38,32 @@ Uraeus Leather,Uraeus Skin,1,Black Alumen,1,Earth Crystal,1
 Void Glue,Gelato Flesh,3,Pudding Flesh,2,Water Crystal,3
 Wolfram Ingot,Scheelite,1,Ferberite,1,Cobalt Ore,1,Fire Cluster,2,Earth Cluster,1
 Wyvern Leather,Wyvern Skin,3,Coerthan Tea Leaves,1,Earth Crystal,3
+Boar Leather,Boar Hide,1,Alumen,1,Earth Shard,4
+Bronze Rivets,Bronze Ingot,1,Fire Shard,1
+Bronze Ingot,Copper Ore,2,Tin Ore,1,Fire Shard,1
+Hard Hippogryph Leather,Hippogryph Leather,2,Animal Fat,9,Earth Cluster,1
+Hippogryph Leather,Hippogryph Skin,1,Black Alumen,1,Earth Crystal,3
+Linen Canvas,Linen Yarn,2,Cotton Yarn,1,Beeswax,1,Lightning Shard,4
+Linen Yarn,Flax,2,Lightning Shard,2
+Cotton Yarn,Cotton Boll,2,Lightning Shard,1
+Beeswax,Beehive Chip,3,Water Shard,1
+Mahogany Lumber,Mahogany Log,3,Wind Shard,5
+Rosewood Lumber,Rosewood Log,3,Wind Shard,6
+Saurian Leather,Saurian Skin,1,Shroud Tea Leaves,1,Earth Cluster,2,Wind Cluster,1
+Silk Thread,Silkworm Cocoon,2,Effervescent Water,1,Lightning Crystal,3
+Vanya Silk,Silk Thread,2,Potash,9,Lightning Cluster,1
+Yew Lumber,Yew Log,3,Wind Shard,2
+Celestine,Raw Celestine,3,Aqueous Whetstone,9,Wind Cluster,1,Fire Cluster,1
+Holy Cedar Lumber,Cedar Lumber,1,Holy Water,2,Wind Crystal,3
+Cobalt Plate,Cobalt Ingot,2,Ice Shard,5
+Aurum Regis Nugget,Aurum Regis Sand,5,Gold Ore,1,Wind Crystal,5
+Cassia Lumber,Cassia Log,3,Hardened Sap,9,Wind Cluster,2,Ice Cluster,1
+Gold Ingot,Raziqsand,1,Native Gold,1,Gold Ore,1,Wind Cluster,2,Fire Cluster,1
+Hardsilver Nugget,Hardsilver Sand,5,Silver Ore,1,Wind Crystal,4
+Larimar,Raw Larimar,3,Basilisk Whetstone,1,Wind Crystal,4
+Basilisk Whetstone,Basilisk Egg,1,Wind Shard,5
+Platinum Nugget,Platinum Ore,3,Wind Cluster,2,Fire Cluster,1
+Titanium Ingot,Cloud Mica,4,Titanium Nugget,1,Fire Crystal,5
+Titanium Nugget,Titanium Ore,5,Iron Ore,1,Grenade Ash,1,Fire Crystal,4
+Topaz,Emery,1,Raw Topaz,1,Wind Cluster,2,Fire Cluster,1
+Dark Chestnut Lumber,Dark Chestnut Log,5,Wind Crystal,4
