@@ -1,3 +1,13 @@
-/__pycache__/
-/timed_nodes/__pycache__/
-/.vscode/
+# Ignore __pycache__ directories at ALL levels
+**/__pycache__/
+
+# Ignore .pyc and .pyo compiled Python files
+*.pyc
+*.pyo
+*.pyd
+
+# VS Code settings directory
+.vscode/
+
+**/*.py[cod]
+*$py.class
