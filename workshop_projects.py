@@ -71,15 +71,16 @@ def consolidate_csv_files(folder_path="utilities/workshop_parts"):
             columns=['Item', 'Quantity']
         ).sort_values('Item').reset_index(drop=True)
         
-        # Save to output.csv
-        output_path = 'utilities/workshop_output.csv'
-        df.to_csv(output_path, index=False)
-        print(f"Consolidated CSV saved to {output_path}")
+        # Save to output.csv without headers
+        output_path = 'output.csv'
+        df.to_csv(output_path, index=False, header=False)
+        print(f"Consolidated CSV saved to {output_path} (without headers)")
         
         return df
     else:
         print("No valid data found in the CSV files")
         return None
+
 
 
 # --- Gathering List Generation ---
