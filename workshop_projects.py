@@ -72,7 +72,7 @@ def consolidate_csv_files(folder_path="utilities/workshop_parts"):
         ).sort_values('Item').reset_index(drop=True)
         
         # Save to output.csv without headers
-        output_path = 'output.csv'
+        output_path = 'utilities/workshop_output.csv'
         df.to_csv(output_path, index=False, header=False)
         print(f"Consolidated CSV saved to {output_path} (without headers)")
         
