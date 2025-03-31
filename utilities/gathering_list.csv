@@ -1,31 +1,54 @@
 Ingredient,Total Quantity,Location Info
 Aldgoat Horn,36.0,"Eastern Thanalan ( 18.2 / 22.7 ), Dropped by Myotragus Billy"
-Bomb Ash,108.0,Southern Thanalan ( 22.2 / 29.9 )
+Black Alumen,24.0,South Shroud ( 28.7 / 22.8 )
+Bomb Ash,585.0,Southern Thanalan ( 22.2 / 29.9 )
 Cedar Log,45.0,Coerthas Western Highlands ( 31.3 / 32.1 )
-Cobalt Ore,276.0,Northern Thanalan ( 23.1 / 24.2 )
-Coke,81.0,"Nowhere ( 0.0 / 0.0 ), Sold for 200 GC Seals"
-Copper Ore,42.0,Central Thanalan ( 19.0 / 26.2 )
-Darksteel Ore,54.0,"Coerthas Central Highlands ( 27.5 / 20.0 ), Timed at 1:00am"
-Electrum Ore,72.0,Upper La Noscea ( 30.4 / 25.4 )
-Fire Cluster,9.0,
-Fire Crystal,54.0,
-Fire Shard,1542.0,
-Flax,36.0,South Shroud ( 17.6 / 28.6 )
-Gold Ore,126.0,"Eastern Thanalan ( 27.3 / 21.3 ), Timed at 10:00am"
-Ice Cluster,9.0,
-Ice Shard,282.0,
-Iron Ore,462.0,"Nowhere ( 0.0 / 0.0 ), Sold by Material Supplier"
-Iron Ore,462.0,Western Thanalan ( 27.2 / 17.4 )
-Mythril Ore,252.0,Southern Thanalan ( 25.2 / 39.9 )
-Peacock Ore,189.0,"Nowhere ( 0.0 / 0.0 ), Sold for 200 GC Seals"
-Petrified Log,9.0,"Nowhere ( 0.0 / 0.0 ), Sold for 1500 GC Seals"
-Raw Amber,36.0,Eastern Thanalan ( 12.7 / 19.1 )
-Scarlet Sap,9.0,"North Shroud ( 17.7 / 27.7 ), Timed at 1:00am"
-Silver Ore,90.0,South Shroud ( 16.1 / 19.7 )
-Spruce Log,54.0,"Coerthas Central Highlands ( 29.5 / 13.1 ), Timed at 10:00am"
-Terebinth,18.0,"Nowhere ( 0.0 / 0.0 ), Sold by Main City NPCs"
+Cobalt Ore,942.0,Northern Thanalan ( 23.1 / 24.2 )
+Coerthan Tea Leaves,18.0,"Coerthas Western Highlands ( 31.7 / 19.6 ), Timed at 10:00am/pm"
+Coke,1053.0,"Nowhere ( 0.0 / 0.0 ), Sold for 200 GC Seals"
+Copper Ore,78.0,Central Thanalan ( 19.0 / 26.2 )
+Darksteel Ore,774.0,"Coerthas Central Highlands ( 27.5 / 20.0 ), Timed at 1:00am"
+Earth Cluster,54.0,
+Earth Crystal,78.0,
+Effervescent Water,60.0,South Shroud ( 16.0 / 19.7 )
+Electrum Ore,252.0,Upper La Noscea ( 30.4 / 25.4 )
+Ferberite,18.0,"Northern Thanalan ( 17.3 / 19.9 ), Timed at 3:00am ET"
+Fire Cluster,153.0,
+Fire Crystal,1053.0,
+Fire Shard,6366.0,
+Flax,72.0,South Shroud ( 17.6 / 28.6 )
+Gelato Flesh,27.0,"Coerthas Western Highlands ( 9.4 / 18.8 ),  Dropped by Gelato"
+Gold Ore,234.0,"Eastern Thanalan ( 27.3 / 21.3 ), Timed at 10:00am"
+Hardened Sap,216.0,"Nowhere ( 0.0 / 0.0 ), Sold for 200 GC Seals"
+Ice Cluster,42.0,
+Ice Crystal,81.0,
+Ice Shard,984.0,
+Iron Ore,1884.0,"Nowhere ( 0.0 / 0.0 ), Sold by Material Supplier"
+Iron Ore,1884.0,Western Thanalan ( 27.2 / 17.4 )
+Lightning Cluster,18.0,
+Mythril Ore,882.0,Southern Thanalan ( 25.2 / 39.9 )
+Mythrite Ore,144.0,Coerthas Western Highlands ( 31.2 / 12.8 )
+Mythrite Sand,180.0,Coerthas Western Highlands ( 16.6 / 13.1 )
+Oak Log,72.0,South Shroud ( 16.6 / 30.2 )
+Peacock Ore,351.0,"Nowhere ( 0.0 / 0.0 ), Sold for 200 GC Seals"
+Petrified Log,42.0,"Nowhere ( 0.0 / 0.0 ), Sold for 1500 GC Seals"
+Potash,162.0,"Nowhere ( 0.0 / 0.0 ), Sold for 200 GC Seals"
+Pudding Flesh,18.0,"Nowhere ( 0.0 / 0.0 ), Sold for 200 GC Seals"
+Raw Amber,72.0,Eastern Thanalan ( 12.7 / 19.1 )
+Red Moko Grass,54.0,"Nowhere ( 0.0 / 0.0 ), Collected from Company Workshop Voyages"
+Rock Salt,60.0,Central Thanalan ( 14.5 / 22.7 )
+Scarlet Sap,42.0,"North Shroud ( 17.7 / 27.7 ), Timed at 1:00am"
+Scheelite,18.0,"Nowhere ( 0.0 / 0.0 ), Sold for 1500 GC Seals"
+Silex,60.0,Southern Thanalan ( 22.4 / 29.7 )
+Silver Ore,180.0,South Shroud ( 16.1 / 19.7 )
+Spruce Log,270.0,"Coerthas Central Highlands ( 29.5 / 13.1 ), Timed at 10:00am"
+Terebinth,36.0,"Nowhere ( 0.0 / 0.0 ), Sold by Main City NPCs"
+Uraeus Skin,24.0,"Nowhere ( 0.0 / 0.0 ), Found in The Wanderer's Palace"
+Vivianite,108.0,"Nowhere ( 0.0 / 0.0 ), Collected from Company Workshop Voyages"
 Walnut Log,54.0,South Shroud ( 23.1 / 21.6 )
-Water Shard,198.0,
-Wind Cluster,39.0,
-Wind Crystal,207.0,
-Wind Shard,186.0,
+Water Crystal,27.0,
+Water Shard,642.0,
+Wind Cluster,165.0,
+Wind Crystal,531.0,
+Wind Shard,543.0,
+Wyvern Skin,54.0,"Coerthas Western Highlands (X:19.5 Y:35.9), Rare drop from wyverns"
