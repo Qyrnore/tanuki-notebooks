@@ -96,12 +96,10 @@ def generate_gathering_list(total_csv, recipe_book_csv, recipe_gathering_csv, ou
     
     Returns the resulting DataFrame.
     """
-    # Load CSV files
     df_total = load_csv_with_max_columns(total_csv)
     df_recipe_book = load_csv_with_max_columns(recipe_book_csv)
     df_recipe_gathering = load_csv_with_max_columns(recipe_gathering_csv)
-    
-    # Build recipe dictionary from recipe_book.csv
+
     max_fields_recipe_book = df_recipe_book.shape[1]
     recipes = {}
     for _, row in df_recipe_book.iterrows():
@@ -111,22 +109,14 @@ def generate_gathering_list(total_csv, recipe_book_csv, recipe_gathering_csv, ou
             if pd.isna(row[i]):
                 break
             ingredient = row[i]
-            if i + 1 < max_fields_recipe_book and not pd.isna(row[i+1]):
-                qty = float(row[i+1])
-            else:
-                qty = 0
+            qty = float(row[i + 1]) if i + 1 < max_fields_recipe_book and not pd.isna(row[i + 1]) else 0
             ingredients.append((ingredient, qty))
         recipes[product] = ingredients
 
-    # Build top-level dictionary from total_shark_class_sub_parts.csv
-    top_level = {}
-    for _, row in df_total.iterrows():
-        product = row[0]
-        qty = float(row[1])
-        top_level[product] = qty
+    top_level = {row[0]: float(row[1]) for _, row in df_total.iterrows()}
 
-    # Recursively compute base ingredient requirements.
     requirements = defaultdict(float)
+
     def compute_requirements(item, multiplier):
         if item in recipes:
             for ingredient, qty in recipes[item]:
@@ -139,19 +129,21 @@ def generate_gathering_list(total_csv, recipe_book_csv, recipe_gathering_csv, ou
 
     df_requirements = pd.DataFrame(list(requirements.items()), columns=["Ingredient", "Total Quantity"])
 
-    # Process the recipe_gathering.csv: combine location columns.
-    def combine_location(row):
-        parts = [str(x) for x in row[1:] if pd.notna(x)]
-        return ', '.join(parts)
-    df_recipe_gathering["Location Info"] = df_recipe_gathering.apply(combine_location, axis=1)
-    df_recipe_gathering = df_recipe_gathering[[0, "Location Info"]]
-    df_recipe_gathering.columns = ["Ingredient", "Location Info"]
+    df_recipe_gathering.rename(columns={0: "Ingredient", 1: "Method"}, inplace=True)
 
-    # Merge and sort the output.
+    def combine_location(row):
+        return ", ".join(
+            str(v).strip() for v in row[2:] if pd.notna(v) and str(v).strip()
+        )
+
+    df_recipe_gathering["Location Info"] = df_recipe_gathering.apply(combine_location, axis=1)
+    df_recipe_gathering = df_recipe_gathering[["Ingredient", "Method", "Location Info"]]
+
     df_output = pd.merge(df_requirements, df_recipe_gathering, on="Ingredient", how="left")
     df_output = df_output.sort_values("Ingredient")
     df_output.to_csv(output_csv, index=False)
     return df_output
+
 
 # --- Crafting Recipes List ---
 
