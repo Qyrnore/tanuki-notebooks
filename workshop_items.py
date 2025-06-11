@@ -260,3 +260,80 @@ def fetch_market_data_for_subparts(gathering_csv, crafting_csv, item_ids_json, o
 
     df_combined.to_csv(output_csv, index=False)
     return df_combined
+
+
+def print_recipe_tree(total_csv, recipe_book_csv, recipe_gathering_csv):
+    """
+    Recursively prints each top‐level product (from total_csv) as a tree:
+      ├── IngredientA (x qty)
+      │   ├── SubIngredient1 (x qty*…)
+      │   └── SubIngredient2 (x qty*…)
+      └── IngredientB (x qty)
+          └── … etc …
+    Leaf nodes show their gathering Method and Location Info in brackets.
+
+    total_csv: path to CSV with top‐level items and quantities.
+    recipe_book_csv: path to CSV with crafting recipes (product → ingredient, qty, …).
+    recipe_gathering_csv: path to CSV mapping ingredient → Method + locations.
+    """
+
+    # 1) Build top‐level dict: {product_name: quantity}
+    df_total = load_csv_with_max_columns(total_csv)
+    top_level = {row[0]: float(row[1]) for _, row in df_total.iterrows()}
+
+    # 2) Build recipes dict: {product: [(ingredient, qty), …]}
+    df_recipe = load_csv_with_max_columns(recipe_book_csv)
+    max_fields = df_recipe.shape[1]
+    recipes = {}
+    for _, row in df_recipe.iterrows():
+        product = row[0]
+        ingredients = []
+        for i in range(1, max_fields, 2):
+            if pd.isna(row[i]):
+                break
+            ing = row[i]
+            qty = float(row[i + 1]) if (i + 1 < max_fields and not pd.isna(row[i + 1])) else 0.0
+            ingredients.append((ing, qty))
+        recipes[product] = ingredients
+
+    # 3) Build gathering info: {ingredient: (method, location_info_string)}
+    df_gather = load_csv_with_max_columns(recipe_gathering_csv)
+    df_gather.rename(columns={0: "Ingredient", 1: "Method"}, inplace=True)
+
+    def _combine_location(row):
+        return ", ".join(
+            str(v).strip() for v in row[2:] if pd.notna(v) and str(v).strip()
+        )
+
+    gather_info = {}
+    for _, row in df_gather.iterrows():
+        ing = row["Ingredient"]
+        method = row["Method"]
+        loc = _combine_location(row)
+        gather_info[ing] = (method, loc)
+
+    # 4) Recursive printer
+    def _print_node(item_name, qty, prefix="", is_last=False):
+        branch = "└── " if is_last else "├── "
+        line = prefix + branch + f"{item_name} (x {qty:g})"
+
+        if item_name not in recipes:
+            # leaf: append gathering info if available
+            if item_name in gather_info:
+                m, loc = gather_info[item_name]
+                line += f"  [{m} @ {loc}]"
+            print(line)
+        else:
+            print(line)
+            children = recipes[item_name]
+            for idx, (child, child_qty) in enumerate(children):
+                last_child = (idx == len(children) - 1)
+                next_prefix = prefix + ("    " if is_last else "│   ")
+                _print_node(child, child_qty * qty, prefix=next_prefix, is_last=last_child)
+
+    # 5) Top‐level iteration
+    print("=== Recipe Breakdown ===")
+    items = list(top_level.items())
+    for idx, (prod, qty) in enumerate(items):
+        last_prod = (idx == len(items) - 1)
+        _print_node(prod, qty, prefix="", is_last=last_prod)
