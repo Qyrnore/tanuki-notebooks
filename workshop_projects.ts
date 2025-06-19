@@ -1,7 +1,7 @@
 import { parse } from "jsr:@std/csv";
 
 export async function calculateBudgets() {
-  const TOTAL_BUDGET = 10000000; // 10 million
+  const TOTAL_BUDGET = 1200000; // 9 million
   const GATHERING_RATIO = 5 / 7;
   const GATHERING_TYPES = ["gc seals", "timed node", "normal"];
   const GATHERING_TYPE_PCTS: Record<string, number> = {

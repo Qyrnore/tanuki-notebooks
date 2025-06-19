@@ -1,74 +1,31 @@
 Ingredient,Total Quantity,Method,Location Info
-Adamantite Ore,30.0,timed node,"Azys Lla ( 23.2 / 5.8 ), Timed at 12AM/PM ET"
-Aldgoat Horn,36.0,drop,"Eastern Thanalan ( 18.2 / 22.7 ), Dropped by Myotragus Billy"
-Alumen,18.0,normal,Eastern Thanalan ( 18.3 / 20.9 )
-Animal Fat,54.0,gc seals,"Nowhere ( 0.0 / 0.0 ), Sold for 200 GC Seals"
-Aqueous Whetstone,135.0,gc seals,"Nowhere ( 0.0 / 0.0 ), Sold for 200 GC Seals"
-Astral Moraine,6.0,timed node,"Coerthas Western Highlands ( 37.2 / 16.4 ), Timed at 12AM/PM ET (Legendary)"
-Aurum Regis Sand,60.0,normal,The Sea of Clouds ( 34.8 / 30.5 )
-Bear Fat,3.0,drop,"The Dravanian Hinterlands ( 4.7 / 27.8 ), Dropped by Sun Bear"
-Beehive Chip,90.0,normal,North Shroud ( 26.3 / 27.6 )
-Black Alumen,12.0,normal,South Shroud ( 28.7 / 22.8 )
-Boar Hide,18.0,drop,"East Shroud ( 14.5 / 22.7 ), Dropped by Wild Boar"
-Bomb Ash,342.0,normal,Southern Thanalan ( 22.2 / 29.9 )
-Cassia Log,9.0,voyages,"Nowhere ( 0.0 / 0.0 ), Collected from Company Workshop Voyages"
-Cassia Log,9.0,voyages,"Nowhere ( 0.0 / 0.0 ), Collected from Company Workshop Voyages"
-Cedar Log,60.0,normal,Coerthas Western Highlands ( 31.3 / 32.1 )
-Cloud Mica,48.0,normal,The Churning Mists ( 27.6 / 19.2 )
-Cobalt Ore,498.0,normal,Northern Thanalan ( 23.1 / 24.2 )
-Coke,540.0,gc seals,"Nowhere ( 0.0 / 0.0 ), Sold for 200 GC Seals"
-Copper Ore,96.0,npc,Purchased from BSM/ARM Guild Vendor Outside
-Cotton Boll,60.0,normal,Central Shroud ( 22.5 / 24.3 )
-Darksteel Ore,681.0,timed node,"Coerthas Central Highlands ( 27.5 / 20.0 ), Timed at 1:00am"
-Dawnborne Aethersand,3.0,special,"Nowhere ( 0.0 / 0.0 ), Aetherial Reduction from Certain Items"
-Earth Cluster,48.0,,
-Earth Crystal,36.0,,
-Earth Shard,72.0,,
-Effervescent Water,42.0,normal,South Shroud ( 16.0 / 19.7 )
-Electrum Ore,72.0,normal,Upper La Noscea ( 30.4 / 25.4 )
-Fire Cluster,81.0,,
-Fire Crystal,1257.0,,
-Fire Shard,3462.0,,
-Flax,156.0,normal,South Shroud ( 17.6 / 28.6 )
-Gold Ore,192.0,timed node,"Eastern Thanalan ( 27.3 / 21.3 ), Timed at 10:00am"
-Grenade Ash,18.0,npc,"Nowhere ( 0.0 / 0.0 ), Purchased from Z'ranmaia (Limsa NPC)"
-Hardened Sap,27.0,gc seals,"Nowhere ( 0.0 / 0.0 ), Sold for 200 GC Seals"
-Hardsilver Ore,48.0,normal,The Dravanian Forelands ( 25.3 / 25 )
-Hardsilver Sand,60.0,normal,The Churning Mists ( 15.9 / 28.5 )
-Hippogryph Skin,12.0,drop,"Mor Dhona ( 26.8 / 8.3 ), Dropped by Hippogryph"
-Holy Water,24.0,npc,"Nowhere ( 0.0 / 0.0 ), Sold by Idyllshire Scrap Salvager"
-Ice Cluster,6.0,,
-Ice Crystal,117.0,,
-Ice Shard,822.0,,
-Iron Ore,1314.0,npc,"Nowhere ( 0.0 / 0.0 ), Purchased from BSM/ARM Guild Vendor Outside"
-Lightning Cluster,9.0,,
-Lightning Crystal,36.0,,
-Lightning Shard,270.0,,
-Mahogany Log,54.0,normal,Eastern La Noscea ( 19.4 / 25.6 )
-Mythril Ore,426.0,normal,Southern Thanalan ( 25.2 / 39.9 )
-Mythrite Ore,192.0,normal,Coerthas Western Highlands ( 31.2 / 12.8 )
-Mythrite Sand,240.0,normal,Coerthas Western Highlands ( 16.6 / 13.1 )
-Peacock Ore,270.0,gc seals,"Nowhere ( 0.0 / 0.0 ), Sold for 200 GC Seals"
-Potash,54.0,gc seals,"Nowhere ( 0.0 / 0.0 ), Sold for 200 GC Seals"
-Raw Amber,36.0,normal,Eastern Thanalan ( 12.7 / 19.1 )
-Raw Celestine,45.0,voyages,"Nowhere ( 0.0 / 0.0 ), Collected from Company Workshop Voyages"
-Rock Salt,30.0,normal,Central Thanalan ( 14.5 / 22.7 )
-Rosewood Log,63.0,normal,East Shroud ( 16.7 / 23.3 )
-Saurian Skin,6.0,gc seals,"Nowhere ( 0.0 / 0.0 ), Sold for 1500 GC Seals"
-Seventh Heaven,6.0,timed node,"The Churning Mists ( 16.7 / 36.8 ), Timed at 4:00AM/PM ET"
-Shroud Tea Leaves,6.0,normal,Central Shroud ( ??? )
-Silex,30.0,normal,Southern Thanalan ( 22.4 / 29.7 )
-Silkworm Cocoon,24.0,timed node,"East Shroud ( 21.6 / 26.6 ), Timed at 1:00am ET"
-Silver Ore,102.0,normal,South Shroud ( 16.1 / 19.7 )
-Sphalerite,12.0,npc,"Nowhere ( 0.0 / 0.0 ), Sold by NPCs for Scrips"
-Spruce Log,54.0,timed node,"Coerthas Central Highlands ( 29.5 / 13.1 ), Timed at 10:00am"
-Terebinth,18.0,npc,"Nowhere ( 0.0 / 0.0 ), Sold by Main City NPCs"
-Tin Ore,18.0,normal,Central Thanalan ( 19.9 / 22.2 )
-Titanium Ore,90.0,normal,The Dravanian Forelands ( 30.3 / 15.1 )
-Vivianite,72.0,voyages,"Nowhere ( 0.0 / 0.0 ), Collected from Company Workshop Voyages"
-Water Cluster,6.0,,
-Water Shard,378.0,,
-Wind Cluster,63.0,,
-Wind Crystal,474.0,,
-Wind Shard,402.0,,
-Yew Log,54.0,normal,East Shroud ( 15.2 / 27.4 )
+Aldgoat Horn,144.0,drop,"Eastern Thanalan ( 18.2 / 22.7 ), Dropped by Myotragus Billy"
+Bomb Ash,2019.0,normal,Southern Thanalan ( 22.2 / 29.9 )
+Cedar Log,180.0,normal,Coerthas Western Highlands ( 31.3 / 32.1 )
+Cobalt Ore,3210.0,normal,Northern Thanalan ( 23.1 / 24.2 )
+Coke,3105.0,gc seals,"Nowhere ( 0.0 / 0.0 ), Sold for 200 GC Seals"
+Copper Ore,168.0,npc,Purchased from BSM/ARM Guild Vendor Outside
+Darksteel Ore,2637.0,timed node,"Coerthas Central Highlands ( 27.5 / 20.0 ), Timed at 1:00am"
+Electrum Ore,1044.0,normal,Upper La Noscea ( 30.4 / 25.4 )
+Fire Cluster,345.0,,
+Fire Crystal,2637.0,,
+Fire Shard,20682.0,,
+Flax,144.0,normal,South Shroud ( 17.6 / 28.6 )
+Gold Ore,504.0,timed node,"Eastern Thanalan ( 27.3 / 21.3 ), Timed at 10:00am"
+Hardened Sap,972.0,gc seals,"Nowhere ( 0.0 / 0.0 ), Sold for 200 GC Seals"
+Ice Cluster,117.0,,
+Ice Shard,3138.0,,
+Iron Ore,7209.0,npc,"Nowhere ( 0.0 / 0.0 ), Purchased from BSM/ARM Guild Vendor Outside"
+Mythril Ore,1818.0,normal,Southern Thanalan ( 25.2 / 39.9 )
+Peacock Ore,756.0,gc seals,"Nowhere ( 0.0 / 0.0 ), Sold for 200 GC Seals"
+Petrified Log,117.0,gc seals,"Nowhere ( 0.0 / 0.0 ), Sold for 1500 GC Seals"
+Raw Amber,144.0,normal,Eastern Thanalan ( 12.7 / 19.1 )
+Scarlet Sap,117.0,timed node,"North Shroud ( 17.7 / 27.7 ), Timed at 1:00am"
+Silver Ore,1170.0,normal,South Shroud ( 16.1 / 19.7 )
+Spruce Log,864.0,timed node,"Coerthas Central Highlands ( 29.5 / 13.1 ), Timed at 10:00am"
+Terebinth,72.0,npc,"Nowhere ( 0.0 / 0.0 ), Sold by Main City NPCs"
+Walnut Log,216.0,normal,South Shroud ( 23.1 / 21.6 )
+Water Shard,792.0,,
+Wind Cluster,426.0,,
+Wind Crystal,1476.0,,
+Wind Shard,2229.0,,
