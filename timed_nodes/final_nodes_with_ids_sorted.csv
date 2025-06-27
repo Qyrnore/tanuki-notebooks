@@ -1,15 +1,15 @@
 ID,Time,Item Name,Location,Coordinates,Parsed Time,time_diff
-27833,00:00,Broad Beans,Il Mheg,"(x24,y36)",1900-01-01,57
-27828,00:00,Mist Spinach,The Rak'tika Greatwood,"(x34,y21)",1900-01-01,57
-33000,00:00,Rarefied Pine Resin,Yanxia,"(x19,y14)",1900-01-01,57
-33001,00:00,Rarefied Pine Log,Yanxia,"(x19,y14)",1900-01-01,57
-33009,00:00,Rarefied Urunday Log,The Peaks,"(x31,y7)",1900-01-01,57
-12943,00:00,Dravanian Mistletoe,The Churning Mists,"(x24,y6)",1900-01-01,57
-12899,00:00,Porcini,The Churning Mists,"(x24,y6)",1900-01-01,57
-32995,00:00,Rarefied Dark Chestnut,The Dravanian Forelands,"(x16,y36)",1900-01-01,57
-32996,00:00,Rarefied Dark Chestnut Resin,The Dravanian Forelands,"(x16,y36)",1900-01-01,57
-27729,00:00,Raw Triplite,Amh Araeng,"(x20,y29)",1900-01-01,57
-27731,00:00,Raw Onyx,The Tempest,"(x16,y21)",1900-01-01,57
-19970,00:00,Raw Star Spinel,The Ruby Sea,"(x15,y5)",1900-01-01,57
-19907,00:00,Ala Mhigan Salt Crystal,The Lochs,"(x21,y29)",1900-01-01,57
-12538,00:00,Adamantite Ore,Azys Lla,"(x24,y6)",1900-01-01,57
+27835,06:00,Lemonette,Kholusia,"(x20,y27)",1900-01-01 06:00:00,-49
+19918,06:00,Hallowed Basil,The Peaks,"(x23,y16)",1900-01-01 06:00:00,-49
+12944,06:00,Abalathian Mistletoe,The Sea of Clouds,"(x35,y23)",1900-01-01 06:00:00,-49
+12889,06:00,Heavens Lemon,The Sea of Clouds,"(x35,y23)",1900-01-01 06:00:00,-49
+7594,06:00,Young Cieldalaes Spinach,Lower La Noscea,"(x32,y11)",1900-01-01 06:00:00,-49
+8031,06:00,Redolent Log,Central Shroud,"(x30,y19)",1900-01-01 06:00:00,-49
+27730,06:00,Raw Petalite,Lakeland,"(x29,y33)",1900-01-01 06:00:00,-49
+27727,06:00,Raw Diaspore,Il Mheg,"(x26,y13)",1900-01-01 06:00:00,-49
+32978,06:00,Rarefied Raw Azurite,Azim Steppe,"(x36,y26)",1900-01-01 06:00:00,-49
+7610,06:00,Umbral Rock,South Shroud,"(x16,y31)",1900-01-01 06:00:00,-49
+32979,06:00,Rarefied Silvergrace Ore,Azim Steppe,"(x36,y26)",1900-01-01 06:00:00,-49
+19972,06:00,Raw Imperial Jade,Yanxia,"(x29,y9)",1900-01-01 06:00:00,-49
+32981,06:00,Rarefied Raw Lazurite,The Rak'tika Greatwood,"(x16,y18)",1900-01-01 06:00:00,-49
+7595,07:00,Blood Orange,Upper La Noscea,"(x28,y25)",1900-01-01 07:00:00,11
