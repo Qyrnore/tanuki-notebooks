@@ -7,14 +7,14 @@ Coke,3240.0,gc seals,"Nowhere ( 0.0 / 0.0 ), Sold for 200 GC Seals"
 Copper Ore,336.0,npc,Purchased from BSM/ARM Guild Vendor Outside
 Darksteel Ore,2664.0,timed node,"Coerthas Central Highlands ( 27.5 / 20.0 ), Timed at 1:00am"
 Electrum Ore,1248.0,normal,Upper La Noscea ( 30.4 / 25.4 )
-Fire Cluster,360.0,,
-Fire Crystal,2664.0,,
-Fire Shard,24624.0,,
+Fire Cluster,360.0,unknown,
+Fire Crystal,2664.0,unknown,
+Fire Shard,24624.0,unknown,
 Flax,288.0,normal,South Shroud ( 17.6 / 28.6 )
 Gold Ore,1008.0,timed node,"Eastern Thanalan ( 27.3 / 21.3 ), Timed at 10:00am"
 Hardened Sap,864.0,gc seals,"Nowhere ( 0.0 / 0.0 ), Sold for 200 GC Seals"
-Ice Cluster,144.0,,
-Ice Shard,4176.0,,
+Ice Cluster,144.0,unknown,
+Ice Shard,4176.0,unknown,
 Iron Ore,8328.0,npc,"Nowhere ( 0.0 / 0.0 ), Purchased from BSM/ARM Guild Vendor Outside"
 Mythril Ore,2736.0,normal,Southern Thanalan ( 25.2 / 39.9 )
 Peacock Ore,1512.0,gc seals,"Nowhere ( 0.0 / 0.0 ), Sold for 200 GC Seals"
@@ -25,7 +25,7 @@ Silver Ore,1440.0,normal,South Shroud ( 16.1 / 19.7 )
 Spruce Log,1008.0,timed node,"Coerthas Central Highlands ( 29.5 / 13.1 ), Timed at 10:00am"
 Terebinth,144.0,npc,"Nowhere ( 0.0 / 0.0 ), Sold by Main City NPCs"
 Walnut Log,432.0,normal,South Shroud ( 23.1 / 21.6 )
-Water Shard,1584.0,,
-Wind Cluster,552.0,,
-Wind Crystal,2232.0,,
-Wind Shard,2808.0,,
+Water Shard,1584.0,unknown,
+Wind Cluster,552.0,unknown,
+Wind Crystal,2232.0,unknown,
+Wind Shard,2808.0,unknown,

@@ -140,9 +140,15 @@ def generate_gathering_list(total_csv, recipe_book_csv, recipe_gathering_csv, ou
     df_recipe_gathering = df_recipe_gathering[["Ingredient", "Method", "Location Info"]]
 
     df_output = pd.merge(df_requirements, df_recipe_gathering, on="Ingredient", how="left")
+
+    # Assign "unknown" to Method where it's missing
+    df_output["Method"] = df_output["Method"].fillna("unknown")
+    df_output["Location Info"] = df_output["Location Info"].fillna("")
+
     df_output = df_output.sort_values("Ingredient")
     df_output.to_csv(output_csv, index=False)
     return df_output
+
 
 
 # --- Crafting Recipes List ---
