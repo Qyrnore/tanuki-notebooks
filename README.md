@@ -1,70 +1,44 @@
-# FFXIV Data Processing Notebooks and Modules
-
-This repository contains Jupyter notebooks and supporting JS/Python modules for processing, cleaning, and managing various datasets related to Final Fantasy XIV (FFXIV) gil-making schemes. The workflows primarily assist with company workshop gathering/crafting/management, and timed node tracking.
+# Tanuki/FFXIV Jupyter Notebooks and Gil-Making Modules
 
 ---
 
-## Contents and Descriptions
+## `workshop_items.ipynb` & `workshop_items.py`
 
-### `timed_nodes.ipynb` & `timed_nodes.py`
+### Purpose:
 
-**Purpose:**
-
-* Provides tools to clean and process datasets of "timed nodes," which are gathering spots in FFXIV that only appear at specific times.
-* Assigns unique IDs to cleaned nodes.
-* Offers sorting functions to arrange nodes based on their availability relative to the current Eorzean time.
-
-**Usage:**
-
-* The notebook allows for execution of the data cleaning, ID assignment, and sorting processes.
-* The `timed_nodes.py` module provides reusable functions that handle the core logic, enabling both notebook use and automation through scripts.
-
----
-
-### `workshop_items.ipynb` & `workshop_items.py`
-
-**Purpose:**
-
-* Facilitates parsing, cleaning, and consolidation of crafting material data for the Free Company Workshop system (currently just Airships/Submersibles).
+* Facilitates parsing, cleaning, and consolidation of crafting material data for the Free Company Workshop system.
 * Helps standardize outputs from parsed CSV files that contain part requirements, item quantities, and sourcing details.
 
-**Usage:**
-
-* The notebook walks through consolidating fragmented workshop item datasets.
-* The `workshop_items.py` module contains helper functions for CSV processing.
-
 ---
 
-### `workshop_projects.ipynb` & `workshop_projects.ts`
-
-**Purpose:**
-
-* Assists in organizing and calculating project artifacts for entire Workshop projects, such as airship or submarine construction.
-* Takes the dataset from `workshop_items.ipynb` and runs various helper functions related to miscellaneous project management rather than just calculating items.
-
----
-
-## Notes
-
-* The notebooks are intended for interactive use during planning, data preparation, and troubleshooting.
-* The `.py` / `.ts` modules abstract key logic to promote reusability in other scripts, automation pipelines, or production tools.
-* Designed to assist project managers, Free Company leaders, crafters, and gatherers in efficiently managing FFXIV Workshop and tradecraft operations.
-
----
-
-## Requirements
+### Requirements
 
 * Python
-* Node.js
 * Jupyter Notebook
 * `pip install -r requirements.txt`
-* `npm install`
 
 ---
 
-## Recommended Workflow
+### Usage:
 
-Currently, you'll find the most use out of `workshop_items.ipynb`. Just copy the different parts from `airship_parts` & `submarine_parts` into `/utilities/workshop_parts` and hit **run all** on the respective Jupyter Notebook cells. :3
+1. Ensure requirements from below are set up to run the notebooks.
+2. Copy the CSVs of each recipe you'd like to make in the workshop into the folder `utilities/workshop_parts` - this is remarkably easy on VS Code. 
+3. Hit "Run All" for the `workshop_items.ipynb` file to run all the cells on the current Company Workshop recipes in the above folder, consolidating their quantities and presenting a text output list.
+4. Take the Consolidated Crafted Items list (first cell) in the `workshop_items.ipynb` file and check over the contents, some of which you might already have, when you have a surplus of items at the start you can add those into an additional CSV with **negative values** like so:
+
+```
+Darksteel Plate,-27
+Mythril Ingot,-690
+Steel Ingot,-5940
+Iron Ingot,-1080
+```
+
+4. (cont.) here you can type out these surplus items into any file in `utilities/workshop_parts` ending with `.csv`. Any file in the folder ending in that extension will consolidate those items together, including negative values to denote what we already have. **Ensure your surplus (negative) items do not exceed the actual amount of items needed for the project. (This could create incorrect gathered item quantities).** If you have something like ingots already (a pre-craft) that are required for something else such as joint plates, you are able to add those ingots as a negative when it exceeds the total amount of ingots alone needed for the project. This is the only exception, do not exceed the total amount of ingots needed overall.
+5. Now that you have an accurate count on crafted items you'll need from this current point, you'll need to manually subtract your gathered items surplus from the gathered items you'll need.
+6. After you have an accurate count on gathered items you'll need, now you must source them from employees, market boards, or grind for the items yourself. Eventually you should hold in your hands the entire consolidated crafting list and be able to craft the workshop items you placed into the `utilities/workshop_parts` folder in one single batch.
+
+**Note: Recipe Tree**
+These workshop projects can call for a lot of crafting at scale, you can use employees in-game to quick-synth craft the materials needed. Using the recipe tree, you can have an easier time transferring the items to other players in the mail or via trade.
 
 ---
 
