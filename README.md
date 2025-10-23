@@ -1,23 +1,71 @@
-# universalis_notebooks
-Uses various data to query the FFXIV Universalis API to make gil easier.
+# FFXIV Data Processing Notebooks and Modules
 
-* Just hit run all in the notebook file and scroll to the end for your results. You'll need something to edit and run jupyter notebook cells.
+This repository contains Jupyter notebooks and supporting JS/Python modules for processing, cleaning, and managing various datasets related to Final Fantasy XIV (FFXIV) gil-making schemes. The workflows primarily assist with company workshop gathering/crafting/management, and timed node tracking.
 
-## timed_nodes.ipynb
-This takes the unspoiled (timed) gathering nodes in Eorzea and prints them into a formatted list in CSV, then it calculates the current time in Eorzea. With the list of nodes now starting at the current time in Eorzea, we do a request to Universalis' market API in a world (such as Seraph in Dynamis) to get the marketboard data for our server.
+---
 
-* I have this set to Seraph for now in my use case, change this to your own in the notebook.
+## Contents and Descriptions
 
-* There are two different cells, one with and one without rarefied items. The final CSV has no rarefied items in it.
+### `timed_nodes.ipynb` & `timed_nodes.py`
 
-* I currently have it set to only items up to Shadowbringers due to my current game progression, you need to set this for yourself by replacing the raw text file "unpsoiled nodes" with the appropriate tables deleted from:
+**Purpose:**
 
-https://ffxiv.consolegameswiki.com/mediawiki/index.php?title=Unspoiled_Nodes&action=edit
+* Provides tools to clean and process datasets of "timed nodes," which are gathering spots in FFXIV that only appear at specific times.
+* Assigns unique IDs to cleaned nodes.
+* Offers sorting functions to arrange nodes based on their availability relative to the current Eorzean time.
 
-1. First cell cleans the raw output of the webpage above, which is turned into "cleaned_nodes.csv"
+**Usage:**
 
-2. Second cell takes all the "cleaned_nodes" and gets their nicely formatted IDs with item data using "item_ids.json", making "final_nodes_with_ids.csv"
+* The notebook allows for execution of the data cleaning, ID assignment, and sorting processes.
+* The `timed_nodes.py` module provides reusable functions that handle the core logic, enabling both notebook use and automation through scripts.
 
-3. Third cell calculates the time and sorts the "final_nodes_with_ids" by their active/approaching spawn time in eorzea.
+---
 
-4. 
+### `workshop_items.ipynb` & `workshop_items.py`
+
+**Purpose:**
+
+* Facilitates parsing, cleaning, and consolidation of crafting material data for the Free Company Workshop system (currently just Airships/Submersibles).
+* Helps standardize outputs from parsed CSV files that contain part requirements, item quantities, and sourcing details.
+
+**Usage:**
+
+* The notebook walks through consolidating fragmented workshop item datasets.
+* The `workshop_items.py` module contains helper functions for CSV processing.
+
+---
+
+### `workshop_projects.ipynb` & `workshop_projects.ts`
+
+**Purpose:**
+
+* Assists in organizing and calculating project artifacts for entire Workshop projects, such as airship or submarine construction.
+* Takes the dataset from `workshop_items.ipynb` and runs various helper functions related to miscellaneous project management rather than just calculating items.
+
+---
+
+## Notes
+
+* The notebooks are intended for interactive use during planning, data preparation, and troubleshooting.
+* The `.py` / `.ts` modules abstract key logic to promote reusability in other scripts, automation pipelines, or production tools.
+* Designed to assist project managers, Free Company leaders, crafters, and gatherers in efficiently managing FFXIV Workshop and tradecraft operations.
+
+---
+
+## Requirements
+
+* Python
+* Node.js
+* Jupyter Notebook
+* `pip install -r requirements.txt`
+* `npm install`
+
+---
+
+## Recommended Workflow
+
+Currently, you'll find the most use out of `workshop_items.ipynb`. Just copy the different parts from `airship_parts` & `submarine_parts` into `/utilities/workshop_parts` and hit **run all** on the respective Jupyter Notebook cells. :3
+
+---
+
+*For any questions, improvements, or contributions, feel free to open an issue or submit a pull request.*

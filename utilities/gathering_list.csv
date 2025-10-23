@@ -1,31 +1,53 @@
 Ingredient,Total Quantity,Method,Location Info
-Aldgoat Horn,288.0,drop,"Eastern Thanalan ( 18.2 / 22.7 ), Dropped by Myotragus Billy"
-Bomb Ash,2328.0,normal,Southern Thanalan ( 22.2 / 29.9 )
-Cedar Log,360.0,normal,Coerthas Western Highlands ( 31.3 / 32.1 )
-Cobalt Ore,3600.0,normal,Northern Thanalan ( 23.1 / 24.2 )
-Coke,3240.0,gc seals,"Nowhere ( 0.0 / 0.0 ), Sold for 200 GC Seals"
-Copper Ore,336.0,npc,Purchased from BSM/ARM Guild Vendor Outside
-Darksteel Ore,2664.0,timed node,"Coerthas Central Highlands ( 27.5 / 20.0 ), Timed at 1:00am"
-Electrum Ore,1248.0,normal,Upper La Noscea ( 30.4 / 25.4 )
-Fire Cluster,360.0,unknown,
-Fire Crystal,2664.0,unknown,
-Fire Shard,24624.0,unknown,
-Flax,288.0,normal,South Shroud ( 17.6 / 28.6 )
-Gold Ore,1008.0,timed node,"Eastern Thanalan ( 27.3 / 21.3 ), Timed at 10:00am"
-Hardened Sap,864.0,gc seals,"Nowhere ( 0.0 / 0.0 ), Sold for 200 GC Seals"
-Ice Cluster,144.0,unknown,
-Ice Shard,4176.0,unknown,
-Iron Ore,8328.0,npc,"Nowhere ( 0.0 / 0.0 ), Purchased from BSM/ARM Guild Vendor Outside"
-Mythril Ore,2736.0,normal,Southern Thanalan ( 25.2 / 39.9 )
-Peacock Ore,1512.0,gc seals,"Nowhere ( 0.0 / 0.0 ), Sold for 200 GC Seals"
-Petrified Log,144.0,gc seals,"Nowhere ( 0.0 / 0.0 ), Sold for 1500 GC Seals"
-Raw Amber,288.0,normal,Eastern Thanalan ( 12.7 / 19.1 )
-Scarlet Sap,144.0,timed node,"North Shroud ( 17.7 / 27.7 ), Timed at 1:00am"
-Silver Ore,1440.0,normal,South Shroud ( 16.1 / 19.7 )
-Spruce Log,1008.0,timed node,"Coerthas Central Highlands ( 29.5 / 13.1 ), Timed at 10:00am"
-Terebinth,144.0,npc,"Nowhere ( 0.0 / 0.0 ), Sold by Main City NPCs"
-Walnut Log,432.0,normal,South Shroud ( 23.1 / 21.6 )
-Water Shard,1584.0,unknown,
-Wind Cluster,552.0,unknown,
-Wind Crystal,2232.0,unknown,
-Wind Shard,2808.0,unknown,
+Aqueous Whetstone,1917.0,gc seals,old for 200 GC Seals
+Basilisk Egg,128.0,normal,Northern Thanalan ( 22.4 / 24.4 )
+Bomb Ash,-170.0,npc,ffxiv.consolegameswiki.com/wiki/Bomb_Ash
+Cassia Log,378.0,voyages,ffxiv.consolegameswiki.com/wiki/Cassia_Log
+Cedar Log,1310.0,normal,Coerthas Western Highlands ( 31.3 / 32.1 )
+Cloud Mica,1040.0,normal,The Churning Mists ( 27.6 / 19.2 )
+Cobalt Ore,20320.0,normal,Northern Thanalan ( 23.1 / 24.2 )
+Coke,16659.0,gc seals,Sold for 200 GC Seals
+Copper Ore,1624.0,npc,ffxiv.consolegameswiki.com/wiki/Copper_Ore
+Darksteel Ore,11805.0,timed node,"Coerthas Central Highlands ( 27.5 / 20.0 ), Timed at 1:00am"
+Earth Cluster,450.0,crystal,universalis.app/market/17
+Effervescent Water,0.0,normal,South Shroud ( 16.0 / 19.7 )
+Electrum Ore,1216.0,normal,Upper La Noscea ( 30.4 / 25.4 )
+Emery,64.0,gc seals,Sold for 1500 GC Seals
+Fire Cluster,1370.5,crystal,universalis.app/market/14
+Fire Crystal,10491.5,crystal,universalis.app/market/8
+Fire Shard,29345.0,crystal,universalis.app/market/2
+Flax,366.0,normal,South Shroud ( 17.6 / 28.6 )
+Gelato Flesh,276.0,drop,ffxiv.consolegameswiki.com/wiki/Gelato_Flesh
+Gold Ore,4872.0,timed node,"Eastern Thanalan ( 27.3 / 21.3 ), Timed at 9:00am"
+Grenade Ash,260.0,npc,ffxiv.consolegameswiki.com/wiki/Grenade_Ash
+Hardened Sap,3294.0,gc seals,Sold for 200 GC Seals
+Holy Water,584.0,npc,ffxiv.consolegameswiki.com/wiki/Holy_Water
+Ice Cluster,1487.5,crystal,universalis.app/market/15
+Ice Crystal,10950.5,crystal,universalis.app/market/9
+Ice Shard,54275.0,crystal,universalis.app/market/3
+Iron Ore,9225.0,npc,ffxiv.consolegameswiki.com/wiki/Iron_Ore
+Mythril Ore,1132.0,normal,Southern Thanalan ( 25.2 / 39.9 )
+Mythrite Ore,5608.0,normal,"Coerthas Western Highlands ( 31.2 / 12.8 ), (Hidden)"
+Mythrite Sand,7010.0,normal,Coerthas Western Highlands ( 16.6 / 13.1 )
+Peacock Ore,5868.0,gc seals,Sold for 200 GC Seals
+Petrified Log,436.0,gc seals,Sold for 1500 GC Seals
+Platinum Ore,504.0,timed node,"Southern Thanalan ( 16.7 / 10.7 ), Timed at 4:00am ET"
+Pudding Flesh,184.0,gc seals,Sold for 200 GC Seals
+Raw Amber,366.0,normal,Eastern Thanalan ( 12.7 / 19.1 )
+Raw Celestine,639.0,voyages,ffxiv.consolegameswiki.com/wiki/Raw_Celestine
+Raw Larimar,384.0,normal,Coerthas Western Highlands ( 31.3 / 12.6 )
+Raw Topaz,64.0,timed node,"Northern Thanalan ( 18.0 / 20.0 ), Timed at 3:00am ET"
+Rock Salt,0.0,normal,Central Thanalan ( 14.5 / 22.7 )
+Scarlet Sap,436.0,timed node,"North Shroud ( 17.7 / 27.7 ), Timed at 3:00am"
+Silex,0.0,normal,Southern Thanalan ( 22.4 / 29.7 )
+Silver Ore,4350.0,normal,South Shroud ( 16.1 / 19.7 )
+Spruce Log,2160.0,timed node,"Coerthas Central Highlands ( 29.5 / 13.1 ), Timed at 9:00am"
+Terebinth,183.0,npc,ffxiv.consolegameswiki.com/wiki/Terebinth
+Titanium Ore,1300.0,normal,The Dravanian Forelands ( 30.3 / 15.1 )
+Vivianite,1350.0,voyages,ffxiv.consolegameswiki.com/wiki/Vivianite
+Walnut Log,720.0,normal,South Shroud ( 23.1 / 21.6 )
+Water Crystal,276.0,crystal,universalis.app/market/13
+Water Shard,1464.0,crystal,universalis.app/market/7
+Wind Cluster,2693.0,crystal,universalis.app/market/16
+Wind Crystal,12010.0,crystal,universalis.app/market/10
+Wind Shard,5420.0,crystal,universalis.app/market/4
